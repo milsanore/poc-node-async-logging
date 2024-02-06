@@ -37,5 +37,6 @@ on my machine i see the following results:
 ```
 
 ## CAVEATS <a name="caveats"></a>
-- order remains
-- solution is not fault tolerance 
+- order is maintained
+- solution does not account for fault tolerance
+    - e.g. if the app is terminated, does the worker thread complete writing
