@@ -1,0 +1,29 @@
+{
+  "name": "poc-node-async-logging",
+  "author": "Milan Mitic",
+  "license": "GPL-3.0-only",
+  "description": "a prototype of node logging on a background thread",
+  "homepage": "https://github.com/milsanore/poc-node-async-logging#readme",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milsanore/poc-node-async-logging.git"
+  },
+  "bugs": {
+    "url": "https://github.com/milsanore/poc-node-async-logging/issues"
+  },
+  "keywords": [
+    "node",
+    "async",
+    "log",
+    "logging",
+    "performance",
+    "slow",
+    "worker-thread"
+  ],
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
