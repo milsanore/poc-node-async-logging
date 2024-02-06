@@ -10,7 +10,7 @@
 
 
 ## INTRO <a name="intro"></a>
-- [`console.log()` is slow](https://duckduckgo.com)
+- [`console.log()` is slow](https://github.com/milsanore/poc-node-slow-logging)
 - but i want to use stdout
 - this repo demonstrates a Proof of Concept for logging using a worker thread
 
