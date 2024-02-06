@@ -26,6 +26,7 @@
 
 ## RESULTS <a name="results"></a>
 on my machine i see the following results:
+```
 ┌─────────┬─────────────────────────┬─────────────────────┐
 │ (index) │      logging type       │   duration (sec)    │
 ├─────────┼─────────────────────────┼─────────────────────┤
@@ -33,7 +34,7 @@ on my machine i see the following results:
 │    1    │     'worker thread'     │ 0.09937109999917447 │
 │    2    │ 'worker thread (async)' │ 0.11323109999950975 │
 └─────────┴─────────────────────────┴─────────────────────┘
-
+```
 
 ## CAVEATS <a name="caveats"></a>
 - order remains
