@@ -15,7 +15,7 @@ help: Makefile
 	@echo " Choose a command to run:"
 	@sed -n 's/^##//p' $< | column -t -s ':' | sed -e 's/^/ /'
 
-## start: 🟢
+## start: 🟢 run the test, output results
 .PHONY: start
 start:
 	$(call pp,starting api...)
